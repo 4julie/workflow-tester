@@ -1,0 +1,52 @@
+*.iml
+.obsidian
+.gradle
+.gradle-user-home/
+local.properties
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+.claude/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+node_modules/
+dist/
+.next/
+
+#IDE Specific tools
+.vscode/
+*.code-workspace
+# Secrets
+.env
+.env.*
+!.env.example
+*.keystore
+google-services.json
+.idea/misc.xml
+.idea/vcs.xml
+
+# Archive / Legacy Code
+_archive/
+
+# Kotlin / Hilt / Kapt
+*.hprof
+.kotlin/
+kapt/
+
+# JDK / IDE
+openJdk-*/
+OpenJDK-*/
+**/OpenJDK-*/
+**/openJdk-*/
+
+*.log
+*.txt
+
+# Ignore IDE and editor specific files
+*.code-workspace
+deploymentTargetSelector.xml
+workspace.json
+markdown-states.json
